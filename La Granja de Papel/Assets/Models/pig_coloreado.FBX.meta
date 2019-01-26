@@ -1,54 +1,28 @@
 fileFormatVersion: 2
-guid: 15f7ce9a7c20ed94fb75eb9e5ad5c27b
+guid: 8cbd5c62275e35f4ab8a90664d6e44f8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: gallina
-    100002: //RootNode
-    100004: H_Cabeza01
-    100006: H_Cabeza02
-    100008: H_Cabeza03
-    100010: H_Cabeza04
-    100012: H_Cola01
-    100014: H_Cola02
-    100016: H_Cola03
-    100018: H_Cola04
-    100020: H_Pata_Left01
-    100022: H_Pata_Left02
-    100024: H_Pata_Left03
-    100026: H_Pata_Right01
-    100028: H_Pata_Right02
-    100030: H_Pata_Right03
-    400000: gallina
-    400002: //RootNode
-    400004: H_Cabeza01
-    400006: H_Cabeza02
-    400008: H_Cabeza03
-    400010: H_Cabeza04
-    400012: H_Cola01
-    400014: H_Cola02
-    400016: H_Cola03
-    400018: H_Cola04
-    400020: H_Pata_Left01
-    400022: H_Pata_Left02
-    400024: H_Pata_Left03
-    400026: H_Pata_Right01
-    400028: H_Pata_Right02
-    400030: H_Pata_Right03
-    2100000: amarillo_claro
-    2100002: marron_oscuro
-    2100004: negro_cola
-    2100006: marron_claro
-    2100008: amarillo_oscuro
-    2100010: blanco
-    2100012: cresta
-    2100014: base
-    4300000: gallina
+    100000: Armature
+    100002: Body
+    100004: Head
+    100006: Head_end
+    100008: Pig
+    100010: //RootNode
+    400000: Armature
+    400002: Body
+    400004: Head
+    400006: Head_end
+    400008: Pig
+    400010: //RootNode
+    2100000: serdo
+    2100002: 'Material #27'
+    2100004: 'Material #39'
+    4300000: Pig
     7400000: Take 001
-    7400002: Take 001 (1)
     9500000: //RootNode
     11100000: //RootNode
-    13700000: gallina
+    13700000: Pig
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -81,7 +55,7 @@ ModelImporter:
       name: Take 001
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 65
+      lastFrame: 49.000004
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -108,7 +82,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.7
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
