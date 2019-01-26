@@ -1,16 +1,14 @@
 fileFormatVersion: 2
-guid: bfc72faa8dc503443affa9c1ba97e8e1
+guid: aada188ebf0c3704e81c6a826589d890
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: gallina
-    100002: //RootNode
-    400000: gallina
-    400002: //RootNode
-    2100000: gallinaMat
-    2300000: gallina
-    3300000: gallina
-    4300000: gallina
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Madera
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: PuertaVallaAbierta
   externalObjects: {}
   materials:
     importMaterials: 1

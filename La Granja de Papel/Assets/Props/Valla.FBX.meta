@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 600118b9e68befe46a8e89ebf535122d
+guid: e4b3aa948d3cc5a48891f8aa752e68f6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material.001
+    2100000: Madera
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Pig
+    4300000: Valla
   externalObjects: {}
   materials:
     importMaterials: 1
