@@ -28,6 +28,7 @@ public class Escalera : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Ey");
             trPlayer = col.gameObject.transform;
             player = col.gameObject;
             if (Input.GetKeyDown(KeyCode.E))

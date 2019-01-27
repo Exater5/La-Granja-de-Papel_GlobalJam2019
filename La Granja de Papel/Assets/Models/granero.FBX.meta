@@ -40,6 +40,9 @@ ModelImporter:
     100068: VigaTecho06
     100070: VigaTecho07
     100072: VigaTecho08
+    100074: escalera
+    100076: ventana009
+    100078: ventana010
     400000: //RootNode
     400002: paredes
     400004: Puerta003
@@ -77,6 +80,9 @@ ModelImporter:
     400068: VigaTecho06
     400070: VigaTecho07
     400072: VigaTecho08
+    400074: escalera
+    400076: ventana009
+    400078: ventana010
     2100000: rojo
     2100002: blanco
     2100004: vigas
@@ -120,6 +126,9 @@ ModelImporter:
     2300066: VigaTecho06
     2300068: VigaTecho07
     2300070: VigaTecho08
+    2300072: escalera
+    2300074: ventana009
+    2300076: ventana010
     3300000: paredes
     3300002: Puerta003
     3300004: Puerta004
@@ -156,6 +165,9 @@ ModelImporter:
     3300066: VigaTecho06
     3300068: VigaTecho07
     3300070: VigaTecho08
+    3300072: escalera
+    3300074: ventana009
+    3300076: ventana010
     4300000: paredes
     4300002: tejado
     4300004: VigaTecho01
@@ -192,6 +204,9 @@ ModelImporter:
     4300066: ventana008
     4300068: Puerta003
     4300070: Puerta004
+    4300072: escalera
+    4300074: ventana009
+    4300076: ventana010
   externalObjects: {}
   materials:
     importMaterials: 1
