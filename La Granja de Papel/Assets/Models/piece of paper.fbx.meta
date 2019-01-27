@@ -1,18 +1,51 @@
 fileFormatVersion: 2
-guid: 32ce0b0c2106f6e4ca1023e24784c8bb
+guid: 5040b670b3671e245831cee2019d8678
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
     2100000: No Name
-    2100002: marrosclaro
-    2100004: hierro
-    2100006: 'Material #85'
-    2100008: marron_oscuro
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Pala
+    4300000: Plane.001
+    7400000: Plane.001|escalera|Take 001|BaseLayer
+    7400002: Plane.001|paredes|Take 001|BaseLayer
+    7400004: Plane.001|Plane.001Action
+    7400006: Plane.001|Plane.001Action.001
+    7400008: Plane.001|Plane.001Action.002
+    7400010: Plane.001|Plane.001Action.003
+    7400012: Plane.001|Suelo|Take 001|BaseLayer
+    7400014: Plane.001|tejado|Take 001|BaseLayer
+    7400016: Plane.001|ventana006|Take 001|BaseLayer
+    7400018: Plane.001|ventana007|Take 001|BaseLayer
+    7400020: Plane.001|ventana009|Take 001|BaseLayer
+    7400022: Plane.001|ventana010|Take 001|BaseLayer
+    7400024: Plane.001|Vigas009|Take 001|BaseLayer
+    7400026: Plane.001|Vigas010|Take 001|BaseLayer
+    7400028: Plane.001|Vigas011|Take 001|BaseLayer
+    7400030: Plane.001|Vigas012|Take 001|BaseLayer
+    7400032: Plane.001|Vigas013|Take 001|BaseLayer
+    7400034: Plane.001|Vigas014|Take 001|BaseLayer
+    7400036: Plane.001|Vigas015|Take 001|BaseLayer
+    7400038: Plane.001|Vigas016|Take 001|BaseLayer
+    7400040: Plane.001|Vigas01|Take 001|BaseLayer
+    7400042: Plane.001|Vigas02|Take 001|BaseLayer
+    7400044: Plane.001|Vigas03|Take 001|BaseLayer
+    7400046: Plane.001|Vigas04|Take 001|BaseLayer
+    7400048: Plane.001|Vigas05|Take 001|BaseLayer
+    7400050: Plane.001|Vigas06|Take 001|BaseLayer
+    7400052: Plane.001|Vigas07|Take 001|BaseLayer
+    7400054: Plane.001|Vigas08|Take 001|BaseLayer
+    7400056: Plane.001|VigaTecho01|Take 001|BaseLayer
+    7400058: Plane.001|VigaTecho02|Take 001|BaseLayer
+    7400060: Plane.001|VigaTecho03|Take 001|BaseLayer
+    7400062: Plane.001|VigaTecho04|Take 001|BaseLayer
+    7400064: Plane.001|VigaTecho05|Take 001|BaseLayer
+    7400066: Plane.001|VigaTecho06|Take 001|BaseLayer
+    7400068: Plane.001|VigaTecho07|Take 001|BaseLayer
+    7400070: Plane.001|VigaTecho08|Take 001|BaseLayer
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -65,8 +98,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -93,7 +126,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
