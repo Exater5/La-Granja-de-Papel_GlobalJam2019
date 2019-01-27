@@ -23,6 +23,10 @@ public class Puerta : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(RecogePapeles.numeroFragmentos == 4)
+        {
+            decidido = true;
+        }
         if (Input.GetKeyDown(KeyCode.E) && enCol)
         {
             dialogo.alignment = TextAnchor.UpperLeft;

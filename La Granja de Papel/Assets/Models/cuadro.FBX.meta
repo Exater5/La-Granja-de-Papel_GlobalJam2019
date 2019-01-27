@@ -1,18 +1,33 @@
 fileFormatVersion: 2
-guid: 32ce0b0c2106f6e4ca1023e24784c8bb
+guid: e1cbf0dd0066da9469efab78543fc555
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: No Name
-    2100002: marrosclaro
-    2100004: hierro
-    2100006: 'Material #85'
-    2100008: marron_oscuro
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Pala
+    100000: Box001
+    100002: Box002
+    100004: Box003
+    100006: //RootNode
+    100008: plano_dibujo
+    400000: Box001
+    400002: Box002
+    400004: Box003
+    400006: //RootNode
+    400008: plano_dibujo
+    2100000: palo
+    2100002: cuadro
+    2100004: painting
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: plano_dibujo
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: plano_dibujo
+    4300000: Box001
+    4300002: Box002
+    4300004: Box003
+    4300006: plano_dibujo
   externalObjects: {}
   materials:
     importMaterials: 1

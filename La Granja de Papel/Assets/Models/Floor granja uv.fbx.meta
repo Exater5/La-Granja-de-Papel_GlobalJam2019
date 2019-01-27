@@ -1,18 +1,21 @@
 fileFormatVersion: 2
-guid: 32ce0b0c2106f6e4ca1023e24784c8bb
+guid: fd76e75f13ab5fc42a07c882c3839ffe
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Cube
+    100002: Cube.001
+    100004: //RootNode
+    400000: Cube
+    400002: Cube.001
+    400004: //RootNode
     2100000: No Name
-    2100002: marrosclaro
-    2100004: hierro
-    2100006: 'Material #85'
-    2100008: marron_oscuro
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Pala
+    2300000: Cube
+    2300002: Cube.001
+    3300000: Cube
+    3300002: Cube.001
+    4300000: Cube.001
+    4300002: Cube
   externalObjects: {}
   materials:
     importMaterials: 1
