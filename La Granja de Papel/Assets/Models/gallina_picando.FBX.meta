@@ -1,64 +1,53 @@
 fileFormatVersion: 2
-guid: b7049b9aa67b9924380780ebffab9ae6
+guid: b329c3c5e16069748848fbe4bba45e4f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cube.003
-    100004: Cube.006
-    100006: Cube.007
-    100008: Cube.016
-    100010: Cube.017
-    100012: Cube.028
-    100014: Plane.004
-    100016: Plane.005
-    400000: //RootNode
-    400002: Cube.003
-    400004: Cube.006
-    400006: Cube.007
-    400008: Cube.016
-    400010: Cube.017
-    400012: Cube.028
-    400014: Plane.004
-    400016: Plane.005
-    2100000: No Name
-    2100002: hierroclaro
-    2100004: hierro
-    2100006: 'Material #226'
-    2100008: 'Material #142'
-    2100010: 'Material #168'
-    2100012: 'Material #167'
-    2100014: 'Material #25'
-    2100016: 'Material #31'
-    2100018: 'Material #33'
-    2100020: 'Material #34'
-    2100022: 'Material #32'
-    2100024: 'Material #35'
-    2100026: 'Material #38'
-    2300000: Cube.003
-    2300002: Cube.006
-    2300004: Cube.007
-    2300006: Cube.016
-    2300008: Cube.017
-    2300010: Cube.028
-    2300012: Plane.004
-    2300014: Plane.005
-    3300000: Cube.003
-    3300002: Cube.006
-    3300004: Cube.007
-    3300006: Cube.016
-    3300008: Cube.017
-    3300010: Cube.028
-    3300012: Plane.004
-    3300014: Plane.005
-    4300000: Plane.004
-    4300002: Cube.003
-    4300004: Cube.006
-    4300006: Cube.007
-    4300008: Plane.005
-    4300010: Cube.016
-    4300012: Cube.017
-    4300014: Cube.028
+    100000: gallina
+    100002: //RootNode
+    100004: H_Cabeza01
+    100006: H_Cabeza02
+    100008: H_Cabeza03
+    100010: H_Cabeza04
+    100012: H_Cola01
+    100014: H_Cola02
+    100016: H_Cola03
+    100018: H_Cola04
+    100020: H_Pata_Left01
+    100022: H_Pata_Left02
+    100024: H_Pata_Left03
+    100026: H_Pata_Right01
+    100028: H_Pata_Right02
+    100030: H_Pata_Right03
+    400000: gallina
+    400002: //RootNode
+    400004: H_Cabeza01
+    400006: H_Cabeza02
+    400008: H_Cabeza03
+    400010: H_Cabeza04
+    400012: H_Cola01
+    400014: H_Cola02
+    400016: H_Cola03
+    400018: H_Cola04
+    400020: H_Pata_Left01
+    400022: H_Pata_Left02
+    400024: H_Pata_Left03
+    400026: H_Pata_Right01
+    400028: H_Pata_Right02
+    400030: H_Pata_Right03
+    2100000: amarillo_claro
+    2100002: marron_oscuro
+    2100004: negro_cola
+    2100006: marron_claro
+    2100008: amarillo_oscuro
+    2100010: blanco
+    2100012: cresta
+    2100014: base
+    4300000: gallina
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gallina
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -83,10 +72,38 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 0
+    animationWrapMode: 2
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -111,8 +128,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -136,10 +153,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

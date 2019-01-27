@@ -1,64 +1,14 @@
 fileFormatVersion: 2
-guid: b7049b9aa67b9924380780ebffab9ae6
+guid: cd18edf17e0a4f24b8a3c46c045b1bdc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Cube.003
-    100004: Cube.006
-    100006: Cube.007
-    100008: Cube.016
-    100010: Cube.017
-    100012: Cube.028
-    100014: Plane.004
-    100016: Plane.005
     400000: //RootNode
-    400002: Cube.003
-    400004: Cube.006
-    400006: Cube.007
-    400008: Cube.016
-    400010: Cube.017
-    400012: Cube.028
-    400014: Plane.004
-    400016: Plane.005
-    2100000: No Name
-    2100002: hierroclaro
-    2100004: hierro
-    2100006: 'Material #226'
-    2100008: 'Material #142'
-    2100010: 'Material #168'
-    2100012: 'Material #167'
-    2100014: 'Material #25'
-    2100016: 'Material #31'
-    2100018: 'Material #33'
-    2100020: 'Material #34'
-    2100022: 'Material #32'
-    2100024: 'Material #35'
-    2100026: 'Material #38'
-    2300000: Cube.003
-    2300002: Cube.006
-    2300004: Cube.007
-    2300006: Cube.016
-    2300008: Cube.017
-    2300010: Cube.028
-    2300012: Plane.004
-    2300014: Plane.005
-    3300000: Cube.003
-    3300002: Cube.006
-    3300004: Cube.007
-    3300006: Cube.016
-    3300008: Cube.017
-    3300010: Cube.028
-    3300012: Plane.004
-    3300014: Plane.005
-    4300000: Plane.004
-    4300002: Cube.003
-    4300004: Cube.006
-    4300006: Cube.007
-    4300008: Plane.005
-    4300010: Cube.016
-    4300012: Cube.017
-    4300014: Cube.028
+    2100000: barro
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Plane001
   externalObjects: {}
   materials:
     importMaterials: 1

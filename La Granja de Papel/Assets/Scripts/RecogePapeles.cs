@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RecogePapeles : MonoBehaviour
 {
     public static int numeroFragmentos = 0;
+
+    public Text numeroCartas;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +23,7 @@ public class RecogePapeles : MonoBehaviour
         // Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * ray.distance, Color.yellow);
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 1f, layerMask))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 2.5f, layerMask))
         {
             if (hit.collider.CompareTag("Carta"))
             {
@@ -28,6 +31,7 @@ public class RecogePapeles : MonoBehaviour
                 {
                     Destroy(hit.collider.gameObject);
                     ++numeroFragmentos;
+                    numeroCartas.text = "" + numeroFragmentos;
                 }
                 Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.blue);
             }
@@ -35,7 +39,7 @@ public class RecogePapeles : MonoBehaviour
         }
         else
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1f, Color.white);
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 2.5f, Color.white);
         }
     }
 
