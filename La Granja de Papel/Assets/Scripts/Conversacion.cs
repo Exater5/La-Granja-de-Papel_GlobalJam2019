@@ -1,35 +1,47 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Conversacion : MonoBehaviour
 {
     public string texto;
+    bool enCol = false;
+    public Text dialogo;
+    public Animator animaCanvas;
     // Start is called before the first frame update
     void Start()
     {
-        
+        dialogo.alignment = TextAnchor.MiddleCenter;
+        dialogo.text = "Pulsa E para hablar.";
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E)&&enCol)
+        {
+            dialogo.alignment = TextAnchor.UpperLeft;
+            dialogo.text = texto;
+        }
     }
     public void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Hola Mundo");
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Pulsa E para interactuar");
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log(texto);
-            }
+            animaCanvas.SetTrigger("Aparece");
+            enCol = true;
         }
     }
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerExit(Collider col)
     {
-        Debug.Log("Hola Mundo");
+        enCol = false;
+        animaCanvas.SetTrigger("Desaparece");
+        Invoke("RenuevaTexto", 0.5f);
+    }
+    void RenuevaTexto()
+    {
+        dialogo.text = "Pulsa E para hablar.";
+        dialogo.alignment = TextAnchor.MiddleCenter;
     }
 }

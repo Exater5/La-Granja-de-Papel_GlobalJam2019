@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e24f1e4e1f54eed4cb4310418c27ede1
+guid: 45e6e7f03f510734eb031c1aab4d681b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -17,9 +17,8 @@ ModelImporter:
     400008: lower boddy_end
     400010: //RootNode
     400012: SheepWhite
-    2100000: blanco
+    2100000: oveja
     2100002: rosa
-    2100004: ojos
     4300000: SheepWhite
     7400000: Take 001
     9500000: //RootNode
@@ -116,7 +115,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
